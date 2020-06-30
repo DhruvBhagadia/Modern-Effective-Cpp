@@ -1,4 +1,6 @@
 /*
+	Case 1: paramType is a reference but not universal reference
+
     Template of the form: 
     template<typename T>
     void f(paramType param){}
