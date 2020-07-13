@@ -64,8 +64,6 @@ int main() {
     
     A ob6{ob2}; //initializer_list hijacks copy constructor
     
-    cout << ob6.get_a() << endl;
-    
     /*
         Above copy constructor's scenario can be avoided by defining user-defined copy constructor
         By uncommenting copy constructor even braced initialization calls copy constructor
