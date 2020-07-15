@@ -16,8 +16,8 @@ using namespace std;
 
 int main(){
     
-    enum rgb{red, green, blue}; //unscoped enum
-    //auto red = 0; //err: red redeclared
+	enum rgb{red, green, blue}; //unscoped enum
+	//auto red = 0; //err: red redeclared
 	
 	enum class color{white, black, blue}; //scoped enum
 	auto black = 0; //compiles, no namespace pollution
@@ -32,9 +32,9 @@ int main(){
 	error: cannot compare color with int
 	if(scoped_color > 0) 
 	    cout << scoped_color << endl;
-    */
+	*/
     
-    cout << static_cast<int>(scoped_color) << endl; //explicit type conversion
+    	cout << static_cast<int>(scoped_color) << endl; //explicit type conversion
 	
 	//forward declaration
 	
